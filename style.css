@@ -1,40 +1,30 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f3f3f3;
-  color: #333;
-  margin: 0;
-  padding: 0;
+  background-color: #f0f4f8;
+  padding: 20px;
 }
 
 .container {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
   background: white;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-.section {
-  margin-bottom: 24px;
+h1 {
+  text-align: center;
+  color: #333;
 }
 
-input[type="time"] {
-  padding: 8px;
-  margin: 5px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+label {
+  display: block;
+  margin: 10px 0 5px;
 }
 
-button {
-  padding: 10px 15px;
-  background-color: #0077cc;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #005fa3;
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
 }
