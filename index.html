@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Comedouro Automático</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Comedouro Automático</h1>
+
+    <div class="section">
+      <p>Hora atual: <span id="horaAtual">--:--:--</span></p>
+    </div>
+
+    <div class="section">
+      <h2>Sincronizar Hora</h2>
+      <input type="time" id="horaSync" />
+      <button onclick="sincronizarHora()">Enviar</button>
+    </div>
+
+    <div class="section">
+      <h2>Programar Alimentações</h2>
+      <input type="time" id="horario1" placeholder="Horário 1" />
+      <input type="time" id="horario2" placeholder="Horário 2" />
+      <button onclick="enviarHorarios()">Salvar horários</button>
+    </div>
+
+    <div class="section">
+      <h2>Alimentação Manual</h2>
+      <button onclick="alimentarAgora()">Acionar Servo</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
